@@ -1,0 +1,47 @@
+.serchInput {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 500px;
+    height: 60px;
+    padding: 0 32px;
+    border-radius: 8px;
+    gap: 24px;
+}
+
+.serchInput input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+.serchInput input::placeholder {
+    font-size: 18px;
+}
+
+.dataResult {
+    background: #fff;
+    border-radius: 6px;
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+    display: none;
+}
+
+.dataItem {
+    display: flex;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.dataItem:hover {
+    background-color: #ececec;
+}
